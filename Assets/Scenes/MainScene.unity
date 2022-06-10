@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 15208145}
   - component: {fileID: 15208146}
   - component: {fileID: 15208147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 741541015}
   - component: {fileID: 741541016}
   - component: {fileID: 741541017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 1014996943}
   - component: {fileID: 1014996944}
   - component: {fileID: 1014996945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 1091171066}
   - component: {fileID: 1091171067}
   - component: {fileID: 1091171068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 1105436245}
   - component: {fileID: 1105436246}
   - component: {fileID: 1105436247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1588108949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 1649863879}
   - component: {fileID: 1649863880}
   - component: {fileID: 1649863881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 1760513676}
   - component: {fileID: 1760513677}
   - component: {fileID: 1760513678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1117,7 +1117,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1767453539}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4e2c5a44a842a6e40ab04ed670139c6c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1150,7 +1150,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4e2c5a44a842a6e40ab04ed670139c6c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1186,8 +1186,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab7f6748963d184e9ff36c7ba9afe14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAccel: 5
-  maxSpeed: 10
+  moveAccel: 3
+  maxSpeed: 7
+  jumpAccel: 5
+  groundRaycastDistance: 1.2
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1821469769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,7 +1204,7 @@ GameObject:
   - component: {fileID: 1821469770}
   - component: {fileID: 1821469771}
   - component: {fileID: 1821469772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platformPack_tilesheet@2_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
