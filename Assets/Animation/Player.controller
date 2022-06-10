@@ -159,7 +159,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: isOnGround
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -168,9 +168,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.122323096
-  m_TransitionOffset: 1.0080868
-  m_ExitTime: 0.47794977
+  m_TransitionDuration: 0.18660276
+  m_TransitionOffset: 0.45711827
+  m_ExitTime: 0.2942936
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -206,7 +206,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: isOnGround
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -215,9 +215,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.8253336
-  m_TransitionOffset: 0
-  m_ExitTime: 0.0000002932852
+  m_TransitionDuration: 0.057443812
+  m_TransitionOffset: 0.3346509
+  m_ExitTime: 1.0039527
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

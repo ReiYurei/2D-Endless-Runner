@@ -15,6 +15,7 @@ public class CharacterMoveController : MonoBehaviour
     public float jumpAccel;
     private bool isJumping;
     private bool isOnGround;
+    private CharacterSoundController sound;
 
     [Header("Ground Raycast")]
     public float groundRaycastDistance;
@@ -23,6 +24,7 @@ public class CharacterMoveController : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sound = GetComponent<CharacterSoundController>();
     }
     void FixedUpdate()
     {
@@ -59,7 +61,8 @@ public class CharacterMoveController : MonoBehaviour
         {
             if (isOnGround)
             {
-                isJumping = true;          
+                isJumping = true;
+                sound.PlayJump();
             }
             anim.SetBool("isOnGround", isOnGround);
         }
