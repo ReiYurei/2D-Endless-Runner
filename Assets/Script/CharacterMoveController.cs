@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CharacterMoveController : MonoBehaviour
 {
+   
     [Header("Movement")]
     public float moveAccel;
     public float maxSpeed;
     private Rigidbody2D rig;
+    private Animator anim;
     
     [Header("Jumping")]
     public float jumpAccel;
@@ -20,6 +22,7 @@ public class CharacterMoveController : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
     void FixedUpdate()
     {
@@ -58,6 +61,7 @@ public class CharacterMoveController : MonoBehaviour
             {
                 isJumping = true;          
             }
+            anim.SetBool("isOnGround", isOnGround);
         }
     }
     private void OnDrawGizmos()
