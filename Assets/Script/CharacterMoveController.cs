@@ -64,8 +64,9 @@ public class CharacterMoveController : MonoBehaviour
                 isJumping = true;
                 sound.PlayJump();
             }
-            anim.SetBool("isOnGround", isOnGround);
         }
+        anim.SetBool("isOnGround", isOnGround);
+
     }
     private void OnDrawGizmos()
     {
