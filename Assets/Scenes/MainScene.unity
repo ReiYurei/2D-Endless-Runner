@@ -241,8 +241,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 63686235}
-  - component: {fileID: 63686237}
-  - component: {fileID: 63686236}
   m_Layer: 6
   m_Name: Ground Tileset 1
   m_TagString: Untagged
@@ -270,113 +268,6 @@ Transform:
   m_Father: {fileID: 1588108949}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!66 &63686236
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63686234}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: faff6c86c2aa2554a9a781c74300395c, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1014996945}
-    m_ColliderPaths:
-    - - X: 19199705
-        Y: -6400000
-      - X: 19199705
-        Y: 6400000
-      - X: 6399997
-        Y: 6399707
-      - X: 6400290
-        Y: -6400000
-  - m_Collider: {fileID: 1091171068}
-    m_ColliderPaths:
-    - - X: 44799699
-        Y: -6400000
-      - X: 44799699
-        Y: 6400000
-      - X: 31999994
-        Y: 6399707
-      - X: 32000287
-        Y: -6400000
-  - m_Collider: {fileID: 1105436247}
-    m_ColliderPaths:
-    - - X: 70399691
-        Y: -6400000
-      - X: 70399691
-        Y: 6400000
-      - X: 57599988
-        Y: 6399707
-      - X: 57600281
-        Y: -6400000
-  - m_Collider: {fileID: 1649863881}
-    m_ColliderPaths:
-    - - X: 6399707
-        Y: -6400000
-      - X: 6399707
-        Y: 6400000
-      - X: -6400000
-        Y: 6399707
-      - X: -6399707
-        Y: -6400000
-  - m_Collider: {fileID: 1760513678}
-    m_ColliderPaths:
-    - - X: 57599695
-        Y: -6400000
-      - X: 57599695
-        Y: 6400000
-      - X: 44799992
-        Y: 6399707
-      - X: 44800285
-        Y: -6400000
-  - m_Collider: {fileID: 15208147}
-    m_ColliderPaths:
-    - - X: 31999701
-        Y: -6400000
-      - X: 31999701
-        Y: 6400000
-      - X: 19199994
-        Y: 6399707
-      - X: 19200287
-        Y: -6400000
-  m_CompositePaths:
-    m_Paths:
-    - - {x: -0.6399707, y: -0.6399707}
-      - {x: 7.039969, y: -0.6399707}
-      - {x: 7.03994, y: 0.64}
-      - {x: -0.64, y: 0.6399414}
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
---- !u!50 &63686237
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63686234}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &215092573
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,8 +277,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 215092574}
-  - component: {fileID: 215092576}
-  - component: {fileID: 215092575}
   m_Layer: 6
   m_Name: Ground Tileset 3
   m_TagString: Untagged
@@ -412,87 +301,6 @@ Transform:
   m_Father: {fileID: 1588108949}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!66 &215092575
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215092573}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: faff6c86c2aa2554a9a781c74300395c, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1695822644}
-    m_ColliderPaths:
-    - - X: 19199705
-        Y: -6400000
-      - X: 19199705
-        Y: 6400000
-      - X: 6399997
-        Y: 6399707
-      - X: 6400290
-        Y: -6400000
-  - m_Collider: {fileID: 1261308164}
-    m_ColliderPaths:
-    - - X: 6399707
-        Y: -6400000
-      - X: 6399707
-        Y: 6400000
-      - X: -6400000
-        Y: 6399707
-      - X: -6399707
-        Y: -6400000
-  - m_Collider: {fileID: 2074659365}
-    m_ColliderPaths:
-    - - X: 70399691
-        Y: -6400000
-      - X: 70399691
-        Y: 6400000
-      - X: 57599988
-        Y: 6399707
-      - X: 57600281
-        Y: -6400000
-  m_CompositePaths:
-    m_Paths:
-    - - {x: -0.6399707, y: -0.6399707}
-      - {x: 1.9199704, y: -0.6399707}
-      - {x: 1.9199412, y: 0.64}
-      - {x: -0.64, y: 0.6399414}
-    - - {x: 7.03994, y: -0.64}
-      - {x: 7.03994, y: 0.64}
-      - {x: 5.759999, y: 0.6399414}
-      - {x: 5.7600574, y: -0.64}
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
---- !u!50 &215092576
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215092573}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +1062,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1588108949}
+  - component: {fileID: 1588108952}
+  - component: {fileID: 1588108951}
+  - component: {fileID: 1588108950}
   m_Layer: 6
   m_Name: Ground Container
   m_TagString: Untagged
@@ -1278,6 +1089,217 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1588108950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588108948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161e32e73869f1c4c935fc6e00eff8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainTemplates:
+  - {fileID: 1588108950}
+  terrainTemplateWidth: 8.99
+  gameCamera: {fileID: 519420031}
+  areaStartOffset: -10
+  areaEndOffset: 5
+--- !u!66 &1588108951
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588108948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: faff6c86c2aa2554a9a781c74300395c, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1014996945}
+    m_ColliderPaths:
+    - - X: 95799707
+        Y: -34400000
+      - X: 95799707
+        Y: -21600004
+      - X: 82999992
+        Y: -21600297
+      - X: 83000285
+        Y: -34400000
+  - m_Collider: {fileID: 15208147}
+    m_ColliderPaths:
+    - - X: 108599707
+        Y: -34400000
+      - X: 108599707
+        Y: -21600004
+      - X: 95799992
+        Y: -21600297
+      - X: 95800285
+        Y: -34400000
+  - m_Collider: {fileID: 1091171068}
+    m_ColliderPaths:
+    - - X: 121399699
+        Y: -34400000
+      - X: 121399699
+        Y: -21600004
+      - X: 108599984
+        Y: -21600297
+      - X: 108600277
+        Y: -34400000
+  - m_Collider: {fileID: 1760513678}
+    m_ColliderPaths:
+    - - X: 134199699
+        Y: -34400000
+      - X: 134199699
+        Y: -21600004
+      - X: 121399984
+        Y: -21600297
+      - X: 121400277
+        Y: -34400000
+  - m_Collider: {fileID: 1105436247}
+    m_ColliderPaths:
+    - - X: 146999691
+        Y: -34400000
+      - X: 146999691
+        Y: -21600004
+      - X: 134199984
+        Y: -21600297
+      - X: 134200277
+        Y: -34400000
+  - m_Collider: {fileID: 1649863881}
+    m_ColliderPaths:
+    - - X: 82999707
+        Y: -34400000
+      - X: 82999707
+        Y: -21600004
+      - X: 70200000
+        Y: -21600297
+      - X: 70200293
+        Y: -34400000
+  - m_Collider: {fileID: 1349405670}
+    m_ColliderPaths:
+    - - X: -14077016
+        Y: -33868240
+      - X: -14077016
+        Y: -21068244
+      - X: -26876722
+        Y: -21068537
+      - X: -26876429
+        Y: -33868240
+  - m_Collider: {fileID: 888616951}
+    m_ColliderPaths:
+    - - X: 24322975
+        Y: -33868240
+      - X: 24322975
+        Y: -21068244
+      - X: 11523269
+        Y: -21068537
+      - X: 11523562
+        Y: -33868240
+  - m_Collider: {fileID: 1691411218}
+    m_ColliderPaths:
+    - - X: 37122971
+        Y: -33868240
+      - X: 37122971
+        Y: -21068244
+      - X: 24323268
+        Y: -21068537
+      - X: 24323561
+        Y: -33868240
+  - m_Collider: {fileID: 1775347836}
+    m_ColliderPaths:
+    - - X: 49922971
+        Y: -33868240
+      - X: 49922971
+        Y: -21068244
+      - X: 37123264
+        Y: -21068537
+      - X: 37123557
+        Y: -33868240
+  - m_Collider: {fileID: 1261308164}
+    m_ColliderPaths:
+    - - X: -14883042
+        Y: -53368240
+      - X: -14883042
+        Y: -40568244
+      - X: -27682748
+        Y: -40568537
+      - X: -27682455
+        Y: -53368240
+  - m_Collider: {fileID: 1695822644}
+    m_ColliderPaths:
+    - - X: -2083045
+        Y: -53368240
+      - X: -2083045
+        Y: -40568244
+      - X: -14882752
+        Y: -40568537
+      - X: -14882459
+        Y: -53368240
+  - m_Collider: {fileID: 2074659365}
+    m_ColliderPaths:
+    - - X: 49116943
+        Y: -53368240
+      - X: 49116943
+        Y: -40568244
+      - X: 36317240
+        Y: -40568537
+      - X: 36317533
+        Y: -53368240
+  m_CompositePaths:
+    m_Paths:
+    - - {x: -1.4077309, y: -3.3868241}
+      - {x: -1.4077309, y: -2.1068244}
+      - {x: -2.6876721, y: -2.106883}
+      - {x: -2.6876137, y: -3.3868241}
+    - - {x: 1.1523563, y: -3.3867948}
+      - {x: 4.992297, y: -3.3867948}
+      - {x: 4.992268, y: -2.1068244}
+      - {x: 1.152327, y: -2.106883}
+    - - {x: 7.0200295, y: -3.4399707}
+      - {x: 14.69997, y: -3.4399707}
+      - {x: 14.69994, y: -2.1600003}
+      - {x: 7.02, y: -2.160059}
+    - - {x: -2.7682457, y: -5.336795}
+      - {x: -0.20830451, y: -5.336795}
+      - {x: -0.2083338, y: -4.0568247}
+      - {x: -2.7682748, y: -4.0568833}
+    - - {x: 4.911665, y: -5.336824}
+      - {x: 4.911665, y: -4.0568247}
+      - {x: 3.631724, y: -4.0568833}
+      - {x: 3.6317825, y: -5.336824}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+--- !u!50 &1588108952
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588108948}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1649863878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,8 +2136,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1965032679}
-  - component: {fileID: 1965032681}
-  - component: {fileID: 1965032680}
   m_Layer: 6
   m_Name: Ground Tileset 2
   m_TagString: Untagged
@@ -2141,97 +2161,6 @@ Transform:
   m_Father: {fileID: 1588108949}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!66 &1965032680
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965032678}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: faff6c86c2aa2554a9a781c74300395c, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1691411218}
-    m_ColliderPaths:
-    - - X: 57599695
-        Y: -6400000
-      - X: 57599695
-        Y: 6400000
-      - X: 44799992
-        Y: 6399707
-      - X: 44800285
-        Y: -6400000
-  - m_Collider: {fileID: 888616951}
-    m_ColliderPaths:
-    - - X: 44799699
-        Y: -6400000
-      - X: 44799699
-        Y: 6400000
-      - X: 31999994
-        Y: 6399707
-      - X: 32000287
-        Y: -6400000
-  - m_Collider: {fileID: 1349405670}
-    m_ColliderPaths:
-    - - X: 6399707
-        Y: -6400000
-      - X: 6399707
-        Y: 6400000
-      - X: -6400000
-        Y: 6399707
-      - X: -6399707
-        Y: -6400000
-  - m_Collider: {fileID: 1775347836}
-    m_ColliderPaths:
-    - - X: 70399691
-        Y: -6400000
-      - X: 70399691
-        Y: 6400000
-      - X: 57599988
-        Y: 6399707
-      - X: 57600281
-        Y: -6400000
-  m_CompositePaths:
-    m_Paths:
-    - - {x: 0.6399414, y: -0.64}
-      - {x: 0.6399414, y: 0.64}
-      - {x: -0.64, y: 0.6399414}
-      - {x: -0.6399414, y: -0.64}
-    - - {x: 3.200029, y: -0.6399707}
-      - {x: 7.039969, y: -0.6399707}
-      - {x: 7.03994, y: 0.64}
-      - {x: 3.1999993, y: 0.6399414}
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
---- !u!50 &1965032681
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965032678}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2074659363
 GameObject:
   m_ObjectHideFlags: 0
