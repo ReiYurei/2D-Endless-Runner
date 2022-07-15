@@ -29,14 +29,6 @@ public class CharacterMoveController : MonoBehaviour
     [Header("GameOver")]
     public float fallPositionY;
     public GameObject gameOverScreen;
-<<<<<<< HEAD
-    [Header("Camera")]
-    public CameraMoveController gameCamera;
-    private void GameOver()
-    {
-        score.FinishScoring();    
-        gameCamera.enabled = false;    
-=======
 
     [Header("Camera")]
     public CameraMoveController gameCamera;
@@ -45,7 +37,6 @@ public class CharacterMoveController : MonoBehaviour
     {
         score.FinishScoring();
         gameCamera.enabled = false;
->>>>>>> 73c226d9a6def2603feb1d3843d5dbebc02aac86
         gameOverScreen.SetActive(true);
         this.enabled = false;
     }
