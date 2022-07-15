@@ -20,6 +20,9 @@ public class CharacterMoveController : MonoBehaviour
     [Header("Ground Raycast")]
     public float groundRaycastDistance;
     public LayerMask groundLayerMask;
+
+
+
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
