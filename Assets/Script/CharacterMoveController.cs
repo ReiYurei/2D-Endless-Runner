@@ -26,6 +26,18 @@ public class CharacterMoveController : MonoBehaviour
     public float scoringRatio;
     private float lastPositionX;
 
+    [Header("GameOver")]
+    public float fallPositionY;
+    public GameObject gameOverScreen;
+    [Header("Camera")]
+    public CameraMoveController gameCamera;
+    private void GameOver()
+    {
+        score.FinishScoring();    
+        gameCamera.enabled = false;    
+        gameOverScreen.SetActive(true);
+        this.enabled = false;
+    }
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -78,6 +90,11 @@ public class CharacterMoveController : MonoBehaviour
         {
             score.IncreaseCurrentScore(scoreIncrement);
             lastPositionX += distancePassed;
+
+        }
+        if (transform.position.y < fallPositionY)
+        {
+            GameOver();
         }
 
     }
