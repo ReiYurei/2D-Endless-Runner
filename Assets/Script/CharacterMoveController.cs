@@ -29,14 +29,12 @@ public class CharacterMoveController : MonoBehaviour
     [Header("GameOver")]
     public float fallPositionY;
     public GameObject gameOverScreen;
-
     [Header("Camera")]
     public CameraMoveController gameCamera;
-
     private void GameOver()
     {
-        score.FinishScoring();
-        gameCamera.enabled = false;
+        score.FinishScoring();    
+        gameCamera.enabled = false;    
         gameOverScreen.SetActive(true);
         this.enabled = false;
     }
@@ -93,10 +91,6 @@ public class CharacterMoveController : MonoBehaviour
             score.IncreaseCurrentScore(scoreIncrement);
             lastPositionX += distancePassed;
 
-        }
-        if (transform.position.y < fallPositionY)
-        {
-            GameOver();
         }
         if (transform.position.y < fallPositionY)
         {
